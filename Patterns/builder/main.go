@@ -35,5 +35,4 @@ func main() {
 	storage2 := NewStorage(mongo)
 	storage2.service.SaveOrder(&Order{})
 	storage2.service.GetOrder("idk")
-
 }
